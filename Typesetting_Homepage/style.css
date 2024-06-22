@@ -43,3 +43,125 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('roboto-regular-webfont.woff2') format('woff2'),
+       url('roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'vogueregular';
+  src: url('vogue-webfont.woff2') format('woff2'),
+       url('vogue-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+/*text styling*/
+html {
+  font-family: vogueregular, serif;
+  font-size: 10px;
+}
+
+h1, h2 {
+  font-family: robotoregular, sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+h1 {
+  font-size: 5.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+section h2 + p {
+  text-indent: 20px;
+}
+
+p, li {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+/*links*/
+
+a {
+  outline: none;
+}
+
+a[href*="http"] {
+  padding-right: 15px;
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 12px 12px;
+}
+
+a:link, a:visited {
+  color: #a66;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #a66;
+}
+
+a:active {
+  color: #EEE8E2
+}
+
+/*lists*/
+
+ul, ol {
+  margin: 1.4rem 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-latin;
+}
+
+/*nav*/
+
+nav ul {
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 1.8rem;
+}
+
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 2.2rem;
+  border: 1px solid #a66;
+}
+
+nav li a:focus, nav li a:hover {
+  color: white;
+  background: #a66;
+}
+
+nav li a:active {
+  color: white;
+  background: black;
+}
