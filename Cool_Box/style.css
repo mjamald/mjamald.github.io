@@ -3,3 +3,27 @@ html {
 }
 
 /* Your CSS below here */
+
+div {
+  width: 200px;
+  margin: auto;
+  line-height: 8;
+  /* 16px is default size, so 1rem is used */
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 10px;
+  border: 1px solid #8b0000;
+  background-color: maroon;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 4px 4px 2px rgba(255, 255, 255, 0.6),
+    inset -3px -3px 3px rgba(0, 0, 0, 0.6), 3px 3px 6px black;
+}
+
+
