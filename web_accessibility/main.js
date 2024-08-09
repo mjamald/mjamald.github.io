@@ -7,8 +7,22 @@
 
 // functionality for showing/hiding the comments section
 
+
 const showHideBtn = document.querySelector('.show-hide');
 const commentWrapper = document.querySelector('.comment-wrapper');
+
+
+showHideBtn.onclick = function() {
+  const showHideText = showHideBtn.textContent;
+  if(showHideText === 'Show Comments') {
+    showHideBtn.textContent = 'Hide comments';
+    commentWrapper.style.display = 'block';
+  } else {
+    showHideBtn.textContent = 'Show comments';
+    commentWrapper.style.display = 'none';
+  }
+};
+
 
 commentWrapper.style.display = 'none';
 
