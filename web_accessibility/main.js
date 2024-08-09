@@ -1,3 +1,10 @@
+/*
+	Name: Mohammad Jamaldeen
+	File: main.js
+	Date: 09/08/2024
+	JS file for assignment 5: web accessibility
+*/
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
